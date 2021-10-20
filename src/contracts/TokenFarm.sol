@@ -22,7 +22,7 @@ contract TokenFarm {
 
     // 1 Stakes Token (Deposit)
 
-    function stakeToken(uint _amount) public {
+    function stakeTokens(uint _amount) public {
 
         require(_amount > 0, "amount can't be 0");
 
